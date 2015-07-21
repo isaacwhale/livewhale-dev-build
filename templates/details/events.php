@@ -3,22 +3,16 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <widget type="file"><arg id="path">/includes/head_top.html</arg></widget>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
 	<title>
 		<xphp var="events_title"/> - <xphp var="group_title"/>
     </title>
-	
-	<widget type="file"><arg id="path">/includes/head_bottom.html</arg></widget>
-
+    <widget type="file"><arg id="path">/includes/head.html</arg></widget>
     <widget type="events_details" priority="high"/>
 </head>
-<body>
-  	<widget type="file">
-		<arg id="path">/includes/header.php</arg>
-	</widget>
+<body class="details event">
+    <widget type="file">
+        <arg id="path">/includes/header.php</arg>
+    </widget>
 
 	<div class="container">
 		<div class="row">
